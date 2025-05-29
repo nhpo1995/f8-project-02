@@ -53,7 +53,7 @@ a {
 .btn.btn-large {
     --min-width: 137px;
     height: 50px;
-    padding: 11px 37px;
+    padding: 10px 37px;
     border-radius: 26px;
 }
 
@@ -169,7 +169,7 @@ a {
 }
 /* ----------Image Block ----------- */
 #hero .image-block {
-    width: 49%;
+    width: 48.7%;
     position: relative;
 }
 
@@ -226,7 +226,7 @@ a {
 
 /* ----------Info ----------- */
 #hero .info {
-    width: 51%;
+    width: 51.3%;
     padding-top: 64px;
     padding-left: 130px;
 }
@@ -238,7 +238,7 @@ a {
     font-size: 5.8rem;
     font-weight: 700;
     line-height: 1.17; /* 117.241% */
-    letter-spacing: -1.16px;
+    letter-spacing: -0.116rem;
 }
 
 #hero .info .desc {
@@ -351,7 +351,7 @@ a {
     font-size: 3.8rem;
     font-weight: 700;
     line-height: 1.26; /* 126.316% */
-    letter-spacing: -0.76px;
+    letter-spacing: -0.076rem;
 }
 
 #course .heading .desc {
@@ -554,4 +554,115 @@ a {
     position: absolute;
     top: 0;
     left: -28px;
+}
+
+/* =============== Sign up section =============== */
+#sign-up {
+    margin-top: 200px;
+}
+
+#sign-up .content {
+    display: flex;
+}
+
+#sign-up .image-block {
+    width: 48.7%;
+    height: 438px;
+    position: relative;
+}
+
+#sign-up .image {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+    position: absolute;
+}
+
+#sign-up .image.first {
+    top: 34px;
+    left: 0;
+}
+
+#sign-up .image.second {
+    top: 0;
+    left: 300px;
+}
+
+#sign-up .info {
+    width: 51.3%;
+    padding-top: 58px;
+    padding-left: 130px;
+}
+
+#sign-up .info .sub-title {
+    width: 470px;
+    color: #171100;
+    font-family: "Sen", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.263; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+
+#sign-up .info .desc {
+    width: 470px;
+    color: #5f5b53;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    margin-top: 16px;
+}
+
+#sign-up .info .btn {
+    margin-top: 32px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+}
+
+/* =============== join now section =============== */
+#join-now {
+    margin-top: 200px;
+}
+
+#join-now .content {
+    display: flex;
+}
+
+#join-now .info {
+    width: 48.7%;
+    margin-right: 130px;
+    padding-top: 71px;
+}
+
+#join-now .info .sub-title {
+    color: #171100;
+    font-family: "Sen", sans-serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+
+#join-now .info .desc {
+    color: #5f5b53;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    margin-top: 16px;
+}
+
+#join-now .info .btn {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    margin-top: 32px;
+    padding: 10px 31px;
+}
+
+#join-now .image {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+    object-fit: cover;
 }
