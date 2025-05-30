@@ -767,3 +767,24 @@ a {
     line-height: 1.857; /* 185.714% */
     margin-top: 12px;
 }
+
+#our-blog .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 38px;
+}
+
+#our-blog .pagination .circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+#our-blog .circle.side {
+    background-color: #5f5b53;
+}
+
+#our-blog .circle.mid {
+    background-color: var(--primary-color);
+}
